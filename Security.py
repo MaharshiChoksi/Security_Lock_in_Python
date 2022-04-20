@@ -69,23 +69,23 @@ def destruct():
 
 
 def init_audio():
-    pygame.mixer.music.load("F:\\Python projects\\Windows security system\\audio\\010101(init).mp3")
+    pygame.mixer.music.load("\\audio\\010101(init).mp3")
     pygame.mixer.music.play()
 
 
 def incorrect_audio():
-    pygame.mixer.music.load("F:\\Python projects\\Windows security system\\audio\\Access denied(denied).mp3")
+    pygame.mixer.music.load("\\audio\\Access denied(denied).mp3")
     pygame.mixer.music.play()
 
 
 def end_audio():
-    pygame.mixer.music.load("F:\\Python projects\\Windows security system\\audio\\System Shut Down Sound FX (shutdown).mp3")
+    pygame.mixer.music.load("\\audio\\System Shut Down Sound FX (shutdown).mp3")
     pygame.mixer.music.play()
     os.system('shutdown /s /t 1')
 
 
 def welcome_audio():
-    pygame.mixer.music.load("F:\\Python projects\\Windows security system\\audio\\system_activated(after access).mp3")
+    pygame.mixer.music.load("\\audio\\system_activated(after access).mp3")
     pygame.mixer.music.play()
 
 
@@ -96,7 +96,7 @@ time.sleep(1)
 # access button
 def access():
     global count
-    if entry_u.get() == "Maharshi" and entry_p.get() == "2003@Senmbc":
+    if entry_u.get() == "Username" and entry_p.get() == "Password":
         destruct()
         welcome()
         welcome_audio()
