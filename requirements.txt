@@ -1,0 +1,6 @@
+Required module:
+1). tkinter
+2). time
+3). pygame
+4). keyboard
+5). os

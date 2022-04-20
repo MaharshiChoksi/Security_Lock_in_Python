@@ -1,0 +1,10 @@
+Windows security System which will run when the computer is runned
+
+alt, ctrl, esc, tab, fn, win keys will be blocked so the user can't close the program
+
+
+it will ask for the user name and password.
+when password or user id is entered wrong 3 times it will shut down computer
+
+after every false attempt it will display the warning showing number of count left.
+and when count reaches to 0 then it will show message that computer will shutdown in 5 second and using threading start counter in background and then shutdown.
